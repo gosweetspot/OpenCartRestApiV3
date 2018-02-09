@@ -22,3 +22,11 @@ You will notice that the folders are in the same structure as your Opencart inst
 3. Go to your admin area in Extensions->Product Feeds and enable your GSS API extension
    You have to fill the security key field. We recommend you use a strong random password of at least 16 characters (eg. JR.ALd?*QM*b&r2y)
    This key is then required on GoSweetSpot configuration.
+
+If you encounter an error while enabling the extension, you may need to apply the following permission changes:
+
+(chmod 755 admin/controller/extension/feed/gss_api.php)
+(chmod 755 admin/language/en-gb/extension/feed/gss_api.php)
+(chmod 755 admin/view/template/extension/feed/gss_api.twig)
+(chmod 755 catalog/controller/extension/feed/gss_api.php)
+(chmod 755 catalog/model/account/gss_order.php)
