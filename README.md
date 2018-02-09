@@ -24,17 +24,14 @@ You will notice that the folders are in the same structure as your Opencart inst
    This key is then required on GoSweetSpot configuration.
 
 If you encounter an error while enabling the extension, you may need to apply the following permission changes:
-
+```
 (chmod 755 admin/controller/extension/feed/gss_api.php)
-
 
 (chmod 755 admin/language/en-gb/extension/feed/gss_api.php)
 
-
 (chmod 755 admin/view/template/extension/feed/gss_api.twig)
-
 
 (chmod 755 catalog/controller/extension/feed/gss_api.php)
 
-
 (chmod 755 catalog/model/account/gss_order.php)
+```
