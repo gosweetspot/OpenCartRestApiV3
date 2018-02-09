@@ -13,7 +13,7 @@ The package may be updated from time to time, and these upgrades may break this 
 
 ### IT IS RECOMMENDED THAT YOUR GET YOUR WEBSITE ADMIN TO REVIEW THE FILES TO ENSURE IT DOES NOT CONFLICT WITH ANY EXISTING EXTENSIONS ###
 
-Download latest release from https://github.com/gosweetspot/OpenCartRestApiV3/releases
+Clone this repository and upload the files to your server.
 
 You will notice that the folders are in the same structure as your Opencart installation.
 
