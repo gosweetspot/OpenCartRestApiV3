@@ -20,7 +20,7 @@ You will notice that the folders are in the same structure as your Opencart inst
 1. Navigate to your opencart root folder using an FTP program
 2. Upload the "catalog" & "admin" folder to your opencart installation folder
 3. Go to your admin area in Extensions->Product Feeds and enable your GSS API extension
-   You have to fill the security key field. We recommend you use a strong random password of at least 16 characters (eg. JR.ALd?*QM*b&r2y)
+   You have to fill the security key field. We recommend you use a strong random password of at least 16 characters (eg. JRALdQMbrtx4cWr2y)
    This key is then required on GoSweetSpot configuration.
 
 If you encounter an error while enabling the extension, you may need to apply the following permission changes:
