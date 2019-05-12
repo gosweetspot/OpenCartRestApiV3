@@ -75,7 +75,7 @@ class ControllerExtensionFeedGssApi extends Controller {
 		}
 		
 		if (isset($this->request->get['statusId']) && !empty($this->request->get['statusId'])  && ctype_digit($this->request->get['statusId'])) {
-			$StatusId = $this->request->get['StatusId'];
+			$StatusId = $this->request->get['statusId'];
 		} else {
 			$StatusId = 0;
 		}
