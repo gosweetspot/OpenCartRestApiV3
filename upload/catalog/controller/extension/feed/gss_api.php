@@ -68,20 +68,20 @@ class ControllerExtensionFeedGssApi extends Controller {
 		$orderData['orders'] = array();
 
 		
-		if (isset($this->request->get['OrderId']) && !empty($this->request->get['OrderId'])  && ctype_digit($this->request->get['OrderId'])) {
-			$OrderId = $this->request->get['OrderId'];
+		if (isset($this->request->get['orderId']) && !empty($this->request->get['orderId'])  && ctype_digit($this->request->get['orderId'])) {
+			$OrderId = $this->request->get['orderId'];
 		} else {
 			$OrderId = '';
 		}
 		
-		if (isset($this->request->get['StatusId']) && !empty($this->request->get['StatusId'])  && ctype_digit($this->request->get['StatusId'])) {
-			$StatusId = $this->request->get['StatusId'];
+		if (isset($this->request->get['statusId']) && !empty($this->request->get['statusId'])  && ctype_digit($this->request->get['statusId'])) {
+			$StatusId = $this->request->get['statusId'];
 		} else {
 			$StatusId = 0;
 		}
 		
-		if (isset($this->request->get['TrackingNumber']) && !empty($this->request->get['TrackingNumber']) ) {
-			$TrackingNumber = $this->request->get['TrackingNumber'];
+		if (isset($this->request->get['trackingNumber']) && !empty($this->request->get['trackingNumber']) ) {
+			$TrackingNumber = $this->request->get['trackingNumber'];
 		} else {
 			$TrackingNumber = '';
 		}
