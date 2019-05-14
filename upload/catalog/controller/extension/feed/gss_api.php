@@ -86,13 +86,9 @@ class ControllerExtensionFeedGssApi extends Controller {
 			$TrackingNumber = '';
 		}
 
-		
-
 		$this->load->model('checkout/order');
 
-		 
-
-		$this->model_checkout_order->addOrderHistory($OrderId,$StatusId,'Tracking Link: ' . $TrackingNumber,false,false);
+		$this->model_checkout_order->addOrderHistory($OrderId,$StatusId,'Tracking Link: ' . $TrackingNumber,true,false);
 		$json = array("OrderId" => $OrderId, "Status" => $StatusId, "Tracking" => $TrackingNumber);
 		
 		if ($this->debugIt) {
